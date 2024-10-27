@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="450">
+    <Grid>
+        <Label Content="ВАРИАНТ №6" HorizontalAlignment="Center" Margin="0,53,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Arial Narrow"/>
+        <Button Content="ЗАДАНИЕ 1" HorizontalAlignment="Center" Margin="0,103,0,0" VerticalAlignment="Top" Width="250" Height="39" Click="Button_Click"/>
+        <Button Content="ЗАДАНИЕ 2" HorizontalAlignment="Center" Margin="0,147,0,0" VerticalAlignment="Top" Width="250" Height="39" Click="Button_Click_2"/>
+        <Button Content="ЗАДАНИЕ 3" HorizontalAlignment="Center" Margin="0,191,0,0" VerticalAlignment="Top" Width="250" Height="39" Click="Button_Click_1"/>
+        <Button Content="ЗАДАНИЕ 4" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top" Width="250" Height="39" Click="Button_Click_3"/>
+        <Button Content="ЗАДАНИЕ 5" HorizontalAlignment="Center" Margin="0,279,0,0" VerticalAlignment="Top" Width="250" Height="39" Click="Button_Click_4"/>
+        <Button Content="ВЫЙТИ" HorizontalAlignment="Center" Margin="0,323,0,0" VerticalAlignment="Top" Width="250" Height="39" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>
