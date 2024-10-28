@@ -7,12 +7,13 @@
         mc:Ignorable="d"
         Title="Task3Form" Height="450" Width="450">
     <Grid>
-        <Button Content="РАССЧИТАТЬ" HorizontalAlignment="Center" Margin="0,172,0,0" VerticalAlignment="Top" Height="45" Width="134" Click="Button_Click_1"/>
+        <Button Content="РАССЧИТАТЬ" HorizontalAlignment="Center" Margin="0,221,0,0" VerticalAlignment="Top" Height="45" Width="134" Click="Button_Click_1"/>
         <Button Content="НАЗАД" HorizontalAlignment="Left" Margin="276,345,0,0" VerticalAlignment="Top" Height="45" Width="134" Click="Button_Click"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,115,0,0" TextWrapping="Wrap" x:Name="InputTextBox" VerticalAlignment="Top" Width="404" Height="38"/>
-        <TextBlock HorizontalAlignment="Left" Margin="23,72,0,0" TextWrapping="Wrap" Text="Введите числа, разделенные пробелом:" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,164,0,0" TextWrapping="Wrap" x:Name="InputTextBox" VerticalAlignment="Top" Width="404" Height="38"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,121,0,0" TextWrapping="Wrap" Text="Введите числа, разделенные пробелом:" VerticalAlignment="Top" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="23,270,0,0" TextWrapping="Wrap" Text="Результат:" VerticalAlignment="Top" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="142,270,0,0" TextWrapping="Wrap" x:Name="ResultTextBlock" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="18,44,0,0" TextWrapping="Wrap" Text="Дано N целых чисел. Требуется выбрать из них три таких числа, произведение которых максимально." VerticalAlignment="Top" FontSize="18"/>
 
     </Grid>
 </Window>

@@ -55,19 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Task1Form.xaml.cs">
+    <Compile Include="Pages\Task1Form.xaml.cs">
       <DependentUpon>Task1Form.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Task2Form.xaml.cs">
+    <Compile Include="Pages\Task2Form.xaml.cs">
       <DependentUpon>Task2Form.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Task3Form.xaml.cs">
+    <Compile Include="Pages\Task3Form.xaml.cs">
       <DependentUpon>Task3Form.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Task4Form.xaml.cs">
+    <Compile Include="Pages\Task4Form.xaml.cs">
       <DependentUpon>Task4Form.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Task5Form.xaml.cs">
+    <Compile Include="Pages\Task5Form.xaml.cs">
       <DependentUpon>Task5Form.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -82,23 +82,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Task1Form.xaml">
+    <Page Include="Pages\Task1Form.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Task2Form.xaml">
+    <Page Include="Pages\Task2Form.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Task3Form.xaml">
+    <Page Include="Pages\Task3Form.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Task4Form.xaml">
+    <Page Include="Pages\Task4Form.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Task5Form.xaml">
+    <Page Include="Pages\Task5Form.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

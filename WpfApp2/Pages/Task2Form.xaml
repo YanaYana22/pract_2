@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp2.Task2Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Task2Form" Height="450" Width="450">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Margin="0,192,0,0" TextWrapping="Wrap" x:Name="StringTextBox" VerticalAlignment="Top" Width="382" Height="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,156,0,0" TextWrapping="Wrap" Text="Введите строку:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Language="ru-ru" Text="Результат"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" x:Name="ResultTextBlock"/>
+        <Button Content="ПРОВЕРИТЬ" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Width="218" Height="49" Click="Button_Click_1"/>
+        <Button Content="НАЗАД" HorizontalAlignment="Left" Margin="198,364,0,0" VerticalAlignment="Top" Width="218" Height="49" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,2,0,0" TextWrapping="Wrap" Text="Дана строка, содержащая несколько круглых скобок. Если скобки расставлены правильно (то есть каждой открывающей соответствует одна закрывающая), то вывести число 0. В противном случае вывести или номер позиции, в которой расположена первая ошибочная закрывающая скобка, или, если закрывающих скобок не хватает, число –1." VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>
